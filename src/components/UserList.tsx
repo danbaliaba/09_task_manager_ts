@@ -1,4 +1,4 @@
-import axios from "axios";
+/* import axios from "axios";
 import { ChangeEvent, Component, ReactNode } from "react";
 import User from "./User";
 import UserDetails from "./UserDetails";
@@ -177,3 +177,4 @@ class UserList extends Component<IProps, IState> {
 }
 
 export default UserList;
+ */

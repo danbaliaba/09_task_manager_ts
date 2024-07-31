@@ -1,4 +1,4 @@
-import { ChangeEvent, Component } from "react";
+/* import { ChangeEvent, Component } from "react";
 import { IUser } from "./UserList";
 import style from "../styles/User.module.css";
 import { NavLink} from "react-router-dom";
@@ -40,12 +40,12 @@ export default class User extends Component<IProps, IState> {
     // })
   };
 
-  /*   toggleUserDetails = () => {
+    toggleUserDetails = () => {
     this.setState((prevState) => ({
       ...prevState,
       userInfo: !prevState.userInfo,
     }));
-  }; */
+  }; 
 
   handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -130,3 +130,4 @@ export default class User extends Component<IProps, IState> {
     );
   }
 }
+ */

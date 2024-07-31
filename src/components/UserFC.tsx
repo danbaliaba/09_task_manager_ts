@@ -14,6 +14,8 @@ const UserFC: FC<IProps> = ({ user }) => {
   const [companyName, setCompanyName] = useState<string>("");
   const [phone, setPhone] = useState<string>("");
 
+  const dispatch = useDispatch();
+
 
   // const { id } = useParams();
 
